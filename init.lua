@@ -8,6 +8,10 @@ require("config.lazy")
 -- Set Catppuccin Mocha theme
 vim.cmd("colorscheme catppuccin-mocha")
 
--- Make Ctrl+w Ctrl+w switch panels even from terminal mode
-vim.keymap.set('t', '<C-w><C-w>', '<C-\\><C-n><C-w>w')
+-- Exit terminal mode with Alt+, Alt+n
+vim.keymap.set('t', '<A-,><A-n>', '<C-\\><C-n>')
+
+
+
+
 
