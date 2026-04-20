@@ -1,7 +1,8 @@
-vim.opt.number = true
+vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum}"
 vim.opt.termguicolors = true
 vim.opt.splitright = true
 vim.opt.cursorline = true
+vim.opt.clipboard = "unnamedplus"
 
 require("config.lazy")
 
