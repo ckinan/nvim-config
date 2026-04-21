@@ -8,6 +8,7 @@ return {
       "lua",
       "markdown",
       "markdown_inline",
+      "go",
     },
     auto_install = true,
   },
